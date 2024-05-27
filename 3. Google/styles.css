@@ -1,0 +1,79 @@
+html {
+    font-family: "Font Awesome 5 Free", sans-serif;
+}
+
+.body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    position: absolute;
+    top: 25%;
+}
+
+.Logo {
+    width: 50%;
+    max-width: 505px;
+}
+
+.Buscador {     /* Aca centramos los div de los buscadores */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+.search::placeholder {
+    text-align: center;
+    
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;               /* Ten cuidado estos iconos al declararlos en el placeholder no pueden bajar de cietrtos px porque luego desaparecen */
+}                                   /* En este caso a partir de 500 px se hace un cuadrito osea desaparece */
+
+.search {
+    width: 600px;
+    height: 25px;
+
+    margin-bottom: 80px;
+}
+
+.search2 {
+    width: 600px;
+    height: 25px;
+}
+.icono {
+    width: 10%;
+    height: 30px;
+    margin-bottom: 1px;
+    background-color:crimson;
+    border-style: hidden;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
