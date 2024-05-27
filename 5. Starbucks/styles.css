@@ -1,0 +1,162 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(146, 214, 194);
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-color: rgb(8, 32, 27);
+    display: flex;
+    min-width: 70px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Menu {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    width: 100%;
+}
+
+.icono {
+    display: flex;
+    align-items: center;
+}
+
+.icono img {
+    width: 20%;
+    height: 20%;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.Menu:hover {
+    color: rgb(36, 94, 54);
+    transition: 0.5s;
+}
+
+.Titulo {
+    color: rgb(36, 94, 54);
+    width: 100%;
+    height: auto;
+    display: inline;
+    margin-left: 5%;
+}
+
+/* Header */
+
+/* Cuerpo */
+
+.Cuerpo {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    min-width: 70px;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Front {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.Slogan {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+    display:inline;
+
+    margin-left: 10%;
+}
+
+.Front img {
+    width: 100%;
+    height: 100%;
+
+    max-width: 380px;
+}
+
+.Front img:hover {
+    filter: drop-shadow(-2px 3px 20px rgb(0, 48, 49));
+    transition: 1.5s;
+}
+
+.Slogan h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.Slogan p {
+    color: white;
+    font-size: 20px;
+}
+
+.boton {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border-style: none;
+    text-shadow: 3px ;
+    background-color: white;
+    margin-top: 25%;
+    
+    justify-content: center;
+}
+
+.boton:hover {
+    box-shadow: 0px 0px 0px 5px cadetblue;
+    transition: 0.7s;
+}
+
+/* Cuerpo */
+
+/* Footer */
+
+.Redes {
+    display: inline;
+    min-width: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 5%;
+}
+
+.Redes img {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+}
+
+footer {
+    background-color: rgb(8, 32, 27);
+    padding: 20px 0px;
+}
+
+/* Footer */
